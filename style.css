@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+img {
+    aspect-ratio: attr(width) / attr(height);
+  }
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -674,6 +678,10 @@ a {
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
+}
+
+a{
+    padding: 10px;
 }
 
 p {
