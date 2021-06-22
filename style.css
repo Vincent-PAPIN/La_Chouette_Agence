@@ -291,6 +291,10 @@ a:hover {
     font-size: 32px;
 }
 
+.col-sm-4 a{
+    margin: 10px;
+}
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -680,9 +684,9 @@ a {
     margin: auto auto auto auto;
 }
 
-a{
+/* a{
     padding: 10px;
-}
+} */
 
 p {
     font-size: 12px;
